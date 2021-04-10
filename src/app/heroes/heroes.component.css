@@ -4,10 +4,41 @@
     margin: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 125%;
+    width: 15em
 
 }
 
-.badge{
+.heroes li{
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    margin: 0.5em;
+    padding: .3em;
+    height: 1.6em;
+    border-radius: 4px;
+}
+
+.heroes li:hover{
+    color: blue;
+    background-color: #e6e6e6;
+    left: .1em
+}
+
+.heroes li.selected:hover{
+    background-color: #505050;
+    color: white;
+}
+
+.heroes li.selected:active{ /*this one doens't exist yet*/
+    background-color: black;
+    color: white;
+}
+
+
+.heroes.badge{
+    display:inline-block;
+    font-size: small;
+    padding: .8em .7em .7em;
     color: white;
     background-color: thistle;
     margin: 18px;
