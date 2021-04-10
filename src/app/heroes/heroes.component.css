@@ -1,0 +1,16 @@
+.heroes{
+    color: rgb(0, 78, 74);
+    background-color: rgb(172, 172, 172);
+    margin: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+
+}
+
+.badge{
+    color: white;
+    background-color: thistle;
+    margin: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+}
