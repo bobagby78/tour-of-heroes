@@ -9,7 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = "My mother's house";
-}*/
+}
+*/
 import { Component } from '@angular/core';
 
 @Component({
@@ -18,5 +19,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "My mother's house";
+  title = "Tour of Heroes";
 }
+
